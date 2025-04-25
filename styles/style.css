@@ -1,0 +1,41 @@
+/* Основний шрифт для всього проєкту */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+/* Текстові елементи */
+p {
+    font-size: 16px;
+    line-height: 1.5; /* Оптимальний коефіцієнт */
+    color: #333; /* Колір тексту */
+}
+
+/* Стилі для головної сторінки "Студія" */
+.studio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стилі для сторінки "Портфоліо" */
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Додаткові стилі */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
